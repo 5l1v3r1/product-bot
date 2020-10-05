@@ -48,7 +48,7 @@ namespace ProductBot.BusinessLogicLayer
                    if (row["platform"].ToString().Trim() == "hepsiburada")
                    {
                     newPrice = bot.CheckHepsiburadaPrice(row["url"].ToString().Trim());
-                    message = PriceComparison(Convert.ToDecimal(row["price"]), 3000, Convert.ToInt32(row["price_percent"]));
+                    message = PriceComparison(Convert.ToDecimal(row["price"]), newPrice, Convert.ToInt32(row["price_percent"]));
                     if (!string.IsNullOrEmpty(message))
                     {
                         mailSender.Send(row["mail_address"].ToString().Trim(), message, newPrice, row["name"].ToString().Trim(), row["url"].ToString().Trim());
@@ -59,7 +59,7 @@ namespace ProductBot.BusinessLogicLayer
                    else if(row["platform"].ToString().Trim() == "trendyol")
                    {
                     newPrice = bot.CheckTrendyolPrice(row["url"].ToString().Trim());
-                    message = PriceComparison(Convert.ToDecimal(row["price"]), 3000, Convert.ToInt32(row["price_percent"]));
+                    message = PriceComparison(Convert.ToDecimal(row["price"]), newPrice, Convert.ToInt32(row["price_percent"]));
                     if (!string.IsNullOrEmpty(message))
                     {
                         mailSender.Send(row["mail_address"].ToString().Trim(), message, newPrice, row["name"].ToString().Trim(), row["url"].ToString().Trim());
