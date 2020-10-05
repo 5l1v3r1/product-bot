@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umitk\\source\\repos\\ProductBot\\ProductBot\\ProductBot.csproj": {}
+    "C:\\Users\\umitk\\Documents\\GitHub\\product-bot\\ProductBot\\ProductBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umitk\\source\\repos\\ProductBot\\ProductBot\\ProductBot.csproj": {
+    "C:\\Users\\umitk\\Documents\\GitHub\\product-bot\\ProductBot\\ProductBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umitk\\source\\repos\\ProductBot\\ProductBot\\ProductBot.csproj",
+        "projectUniqueName": "C:\\Users\\umitk\\Documents\\GitHub\\product-bot\\ProductBot\\ProductBot.csproj",
         "projectName": "ProductBot",
-        "projectPath": "C:\\Users\\umitk\\source\\repos\\ProductBot\\ProductBot\\ProductBot.csproj",
+        "projectPath": "C:\\Users\\umitk\\Documents\\GitHub\\product-bot\\ProductBot\\ProductBot.csproj",
         "packagesPath": "C:\\Users\\umitk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umitk\\source\\repos\\ProductBot\\ProductBot\\obj\\",
+        "outputPath": "C:\\Users\\umitk\\Documents\\GitHub\\product-bot\\ProductBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\umitk\\AppData\\Roaming\\NuGet\\NuGet.Config",

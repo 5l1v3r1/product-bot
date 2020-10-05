@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HncnqEocleYyywHGnATdxEL2OkSZ51ZG+DVeP7/r+7df9JB8Xe86W5PP8Pdn19Zjw2ONr2/ZNNo9vajw4kKRXA==",
+  "dgSpecHash": "ehqMX5hzijhYo1R6Lj/reNoa/eENcW6VwT2qssUKqra65oOYpIcnz0vmKoHjCh7/9NtvmtXRHZ+VJZ+9aVK5Hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\umitk\\source\\repos\\ProductBot\\ProductBot\\ProductBot.csproj",
+  "projectFilePath": "C:\\Users\\umitk\\Documents\\GitHub\\product-bot\\ProductBot\\ProductBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",
     "C:\\Users\\umitk\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.8\\microsoft.extensions.configuration.3.1.8.nupkg.sha512",
