@@ -1,0 +1,64 @@
+Date:
+02:47:54 5 Ekim 2020 Pazartesi
+Error Line :
+1
+Message :
+Invalid column name 'ID'.
+No :
+207
+Procedure :
+
+Source
+Core .Net SqlClient Data Provider
+Server
+localhost\SQLEXPRESS
+
+----------------------------------
+Date:
+02:51:13 5 Ekim 2020 Pazartesi
+Error Line :
+1
+Message :
+Incorrect syntax near 'output'.
+No :
+102
+Procedure :
+
+Source
+Core .Net SqlClient Data Provider
+Server
+localhost\SQLEXPRESS
+
+----------------------------------
+Date:
+13:01:49 5 Ekim 2020 Pazartesi
+Error Line :
+1
+Message :
+Could not find stored procedure 'query'.
+No :
+2812
+Procedure :
+
+Source
+Core .Net SqlClient Data Provider
+Server
+localhost\SQLEXPRESS
+
+----------------------------------
+Date:
+13:03:28 5 Ekim 2020 Pazartesi
+Error Line :
+1
+Message :
+Could not find stored procedure 'query'.
+No :
+2812
+Procedure :
+
+Source
+Core .Net SqlClient Data Provider
+Server
+localhost\SQLEXPRESS
+
+----------------------------------

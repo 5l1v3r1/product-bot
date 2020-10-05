@@ -1,0 +1,122 @@
+Date:
+01:09:46 5 Ekim 2020 Pazartesi
+Error Line :
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at ProductBot.Helpers.WebBot.GetHepsiburadaPrice() in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 117
+   at ProductBot.Helpers.WebBot.CheckProductUrl(IList`1 elementList, String platform, String productName) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 74
+   at ProductBot.Helpers.WebBot.<>c__DisplayClass9_0.<SearchProduct>b__0() in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 52
+   at ProductBot.Helpers.HandleException.ExceptionTypeHandler[T](Func`1 func) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\HandleException.cs:line 47
+Message :
+no such element: Unable to locate element: {"method":"css selector","selector":"#offering\-price"}
+  (Session info: headless chrome=85.0.4183.121)
+
+----------------------------------
+Date:
+01:12:07 5 Ekim 2020 Pazartesi
+Error Line :
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at ProductBot.Helpers.WebBot.GetHepsiburadaPrice() in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 117
+   at ProductBot.Helpers.WebBot.CheckProductUrl(IList`1 elementList, String platform, String productName) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 74
+   at ProductBot.Helpers.WebBot.<>c__DisplayClass9_0.<SearchProduct>b__0() in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 52
+   at ProductBot.Helpers.HandleException.ExceptionTypeHandler[T](Func`1 func) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\HandleException.cs:line 47
+Message :
+no such element: Unable to locate element: {"method":"css selector","selector":"#offering\-price"}
+  (Session info: headless chrome=85.0.4183.121)
+
+----------------------------------
+Date:
+01:13:57 5 Ekim 2020 Pazartesi
+Error Line :
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementById(String id)
+   at OpenQA.Selenium.By.<>c__DisplayClass16_0.<Id>b__0(ISearchContext context)
+   at OpenQA.Selenium.By.FindElement(ISearchContext context)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)
+   at ProductBot.Helpers.WebBot.GetHepsiburadaPrice() in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 117
+   at ProductBot.Helpers.WebBot.CheckProductUrl(IList`1 elementList, String platform, String productName) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 74
+   at ProductBot.Helpers.WebBot.<>c__DisplayClass9_0.<SearchProduct>b__0() in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\WebBot.cs:line 52
+   at ProductBot.Helpers.HandleException.ExceptionTypeHandler[T](Func`1 func) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\HandleException.cs:line 47
+Message :
+no such element: Unable to locate element: {"method":"css selector","selector":"#offering\-price"}
+  (Session info: headless chrome=85.0.4183.121)
+
+----------------------------------
+Date:
+02:46:04 5 Ekim 2020 Pazartesi
+Error Line :
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ProductBot.DataAccessLayer.MailDal.<>c__DisplayClass2_0.<Save>b__0() in C:\Users\umitk\source\repos\ProductBot\ProductBot\DataAccessLayer\MailDal.cs:line 33
+   at ProductBot.Helpers.HandleException.ExceptionTypeHandler[T](Func`1 func) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\HandleException.cs:line 47
+Message :
+ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+
+----------------------------------
+Date:
+02:47:56 5 Ekim 2020 Pazartesi
+Error Line :
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ProductBot.DataAccessLayer.MailDal.<>c__DisplayClass2_0.<Save>b__0() in C:\Users\umitk\source\repos\ProductBot\ProductBot\DataAccessLayer\MailDal.cs:line 33
+   at ProductBot.Helpers.HandleException.ExceptionTypeHandler[T](Func`1 func) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\HandleException.cs:line 47
+Message :
+ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+
+----------------------------------
+Date:
+02:48:25 5 Ekim 2020 Pazartesi
+Error Line :
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ProductBot.DataAccessLayer.MailDal.<>c__DisplayClass2_0.<Save>b__0() in C:\Users\umitk\source\repos\ProductBot\ProductBot\DataAccessLayer\MailDal.cs:line 33
+   at ProductBot.Helpers.HandleException.ExceptionTypeHandler[T](Func`1 func) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\HandleException.cs:line 47
+Message :
+ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+
+----------------------------------
+Date:
+02:51:15 5 Ekim 2020 Pazartesi
+Error Line :
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ProductBot.DataAccessLayer.MailDal.<>c__DisplayClass2_0.<Save>b__0() in C:\Users\umitk\source\repos\ProductBot\ProductBot\DataAccessLayer\MailDal.cs:line 33
+   at ProductBot.Helpers.HandleException.ExceptionTypeHandler[T](Func`1 func) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\HandleException.cs:line 47
+Message :
+ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+
+----------------------------------
+Date:
+02:52:08 5 Ekim 2020 Pazartesi
+Error Line :
+   at System.Data.SqlClient.SqlCommand.ValidateCommand(Boolean async, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   at ProductBot.DataAccessLayer.MailDal.<>c__DisplayClass2_0.<Save>b__0() in C:\Users\umitk\source\repos\ProductBot\ProductBot\DataAccessLayer\MailDal.cs:line 33
+   at ProductBot.Helpers.HandleException.ExceptionTypeHandler[T](Func`1 func) in C:\Users\umitk\source\repos\ProductBot\ProductBot\Helpers\HandleException.cs:line 47
+Message :
+ExecuteScalar requires an open and available Connection. The connection's current state is closed.
+
+----------------------------------
